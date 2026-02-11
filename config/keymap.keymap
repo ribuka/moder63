@@ -34,7 +34,7 @@
         layer_1 {
             bindings =<
                 &kp F12   &kp F2    &kp F3    &kp F4    &kp F5    &kp F6                 &kp F12   &kp F7     &kp F8     &kp F9    &kp F10    &kp F11    &kp INT3
-                &none     &kp INT1  &none     &none     &none     &none                            &kp LC(Y)  &kp LC(U)  &none     &none      &kp PSCRN  &kp RBKT  
+                &none     &kp INT1  &none     &kp ESC   &none     &none                            &kp LC(Y)  &kp LC(U)  &none     &none      &kp PSCRN  &kp RBKT  
                 &kp LCTRL &kp HOME  &kp END   &none     &none     &kp LS(INT1)                     &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &none      &kp BSLH
                 &kp LSHFT &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &none                            &kp BSPC   &kp DEL    &none     &none      &none      &none     &none
                 &kp ESC   &kp LCTRL &none     &kp LALT  &none     &none         &none    &none     &kp RET    &macro0    &none     &none      &none
@@ -43,21 +43,21 @@
 
         layer_2 {
             bindings =<
-                &none   &none   &none   &none   &none   &none           &none  &none   &none   &none   &none   &none   &none
-				&none   &none   &none   &none   &none   &none                  &none   &none   &none   &none   &none   &none
-				&none   &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                 &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none
-				&none   &none   &none   &none   &none   &none                  &none   &none   &none   &none   &none   &none  &none
-				&none   &none   &none   &none   &none   &none   &none   &none  &none   &none   &none   &none   &none
+                &none      &none   &none   &none   &none     &none             &none  &none     &none    &none     &none    &none      &none
+				&none      &none   &none   &none   &none     &none                    &none     &none    &none     &none    &none      &none
+				&kp LCTRL  &kp N1  &kp N2  &kp N3  &kp N4    &kp N5                   &kp N6    &kp N7   &kp N8    &kp N9   &kp N0     &none
+				&kp LSHFT  &none   &none   &none   &none     &none                    &kp BSPC  &kp DEL  &kp COMMA &kp DOT  &kp SLASH  &kp RSHFT  &none
+				&none      &none   &none   &none   &kp BSPC  &kp SPACE  &none  &none  &none     &none    &none     &none    &none
             >;
         };
 
         layer_3 {
             bindings =<
-                &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none           &none &none &none &none &none &none &none
-				&none        &none        &none        &none        &none        &none                 &none &none &none &none &none &none
-				&none        &none        &none        &none        &none        &none                 &none &none &none &none &none &none
-				&none        &none        &none        &none        &none        &none                 &none &none &none &none &none &none &none
-				&none        &none        &none        &none        &none        &none   &none   &none &none &none &none &none &none
+                &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none           &none  &none  &none  &none  &none  &none  &none
+				&none        &none        &none        &none        &none        &none                  &none  &none  &none  &none  &none  &none
+				&none        &none        &none        &none        &none        &none                  &none  &none  &none  &none  &none  &none
+				&none        &none        &none        &none        &none        &none                  &none  &none  &none  &none  &none  &none  &none
+				&none        &none        &none        &none        &none        &none   &none   &none  &none  &none  &none  &none  &none
             >;
         };
     };
