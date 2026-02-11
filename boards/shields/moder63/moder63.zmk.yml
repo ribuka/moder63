@@ -1,0 +1,11 @@
+
+file_format: "1"
+id: moder63
+name: moder63
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble

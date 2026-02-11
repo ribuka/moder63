@@ -1,0 +1,3 @@
+
+config SHIELD_MODER63
+    def_bool $(shields_list_contains,moder63)
