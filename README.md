@@ -33,7 +33,7 @@ USB-C cable|1|
 - Keymap
   - Please note that key(3, 12) is an irregular placement.
 
-![Keymap](images/keymap.png)
+
 
 
 ## Bluetooth connection
