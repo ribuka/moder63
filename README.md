@@ -24,3 +24,6 @@ USB-C cable|1|
 |Diode|63|
 |Keycap|63|
 
+## Module configuration
+
+![Top View](images/module_haichi.png)
