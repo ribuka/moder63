@@ -24,21 +24,20 @@ USB-C cable|1|
 |Diode|63|
 |Keycap|63|
 
+## Keymap
 
-## Module configuration
+- Module mapping
 
-- Module Configuration
+![Module mapping](images/module-haichi.png)
 
-![Module configuration](images/module-haichi.png)
-
-
-- Keymap
-  - Please note that key(3, 12) is an irregular placement.
+- Assignment
+  - key Assignments are defined in `config/keymap.keymap`
+  - Please note that key(3, 12) is placed in irregular position.
 
 ![Keymap](images/keymap.png)
 
 
-## Bluetooth connection
+## Bluetooth
 
 You can switch the Bluetooth connection target using `bt BT_SEL #` (where # is 0 to 4).
 Please check which keys `bt BT_SEL #` are assigned to.
