@@ -29,3 +29,24 @@ USB-C cable|1|
 - Module Configuration
 
 ![Module configuration](images/module-haichi.png)
+
+- Keymap
+  - Please note that key(3, 12) is an irregular placement.
+
+![Keymap](images/keymap.png)
+
+
+## Bluetooth
+
+You can switch the Bluetooth connection target using `bt BT_SEL #` (where # is 0 to 4).
+Please check which keys `bt BT_SEL #` are assigned to.
+
+Default assignments are as follow.
+
+|bt BT_SEL #|default key assign|
+|---|---|
+|bt BT_SEL 0|key(0,0) on Layer3|
+|bt BT_SEL 1|key(0,1) on Layer3|
+|bt BT_SEL 2|key(0,2) on Layer3|
+|bt BT_SEL 3|key(0,3) on Layer3|
+|bt BT_SEL 4|key(0,4) on Layer3|
