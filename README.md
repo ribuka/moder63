@@ -24,16 +24,18 @@ USB-C cable|1|
 |Diode|63|
 |Keycap|63|
 
+
 ## Module configuration
 
 - Module Configuration
 
 ![Module configuration](images/module-haichi.png)
 
+
 - Keymap
   - Please note that key(3, 12) is an irregular placement.
 
-
+![Keymap](images/keymap.png)
 
 
 ## Bluetooth connection
