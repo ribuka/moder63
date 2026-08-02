@@ -3,6 +3,20 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+    macros {
+        macro0: macro0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+
+            bindings
+                = <&macro_press   &kp LCTRL>
+                , <&macro_tap     &kp SLASH>
+                , <&macro_release &kp LCTRL>
+                , <&macro_tap     &kp DOWN>
+                ;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
