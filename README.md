@@ -26,4 +26,6 @@ USB-C cable|1|
 
 ## Module configuration
 
-![Top View](images/module_haichi.png)
+- Module Configuration
+
+![Module configuration](images/module-haichi.png)
