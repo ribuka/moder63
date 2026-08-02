@@ -36,7 +36,7 @@ USB-C cable|1|
 ![Keymap](images/keymap.png)
 
 
-## Bluetooth
+## Bluetooth connection
 
 You can switch the Bluetooth connection target using `bt BT_SEL #` (where # is 0 to 4).
 Please check which keys `bt BT_SEL #` are assigned to.
